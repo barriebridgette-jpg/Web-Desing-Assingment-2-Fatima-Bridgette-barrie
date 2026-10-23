@@ -1,12 +1,9 @@
-# Web-Desing-Assingment-2-Fatima-Bridgette-barrie
 Savanna Bites Website Project
 Student Name: Fatima Bridgette Barrie
 Project Title: Savanna Bites Web Application
 Academic Year: 2026
-
 Project Overview
 Savanna Bites is a modern, responsive web application designed for a restaurant concept focused on local flavours, family-friendly dining, and warm hospitality. The project serves as an interactive platform for potential customers to explore the menu, learn about the brand, enquire about services, and book table reservations.
-
 Features
 Home Page (index.html): Features a welcoming hero banner, highlighted menu items (Grilled Chicken, Seafood Rice, Chef's Special), and call-to-action buttons for table booking and enquiries.
 About Page (about.html): Highlights the backstory of Savanna Bites, its core values (Fresh Ingredients, Family Friendly, Great Experience), and brand ethos.
@@ -18,8 +15,8 @@ HTML5: Semantic markup structure across all web pages.
 CSS3: Custom stylesheet (main.css) providing custom layout styles, buttons, grid/flex layouts, and page styling.
 JavaScript: Client-side form handling and user feedback scripts.
 Setup & Execution
-Clone or download the project files to your local environment.
-Open any of the .html files (e.g., index.html) in a modern web browser (Google Chrome, Mozilla Firefox, Safari, Edge).
-Navigate through the site using the main navigation bar.
+Download or clone the project repository.
+Open any of the .html files (such as index.html) in a modern web browser (e.g., Chrome, Firefox, Safari, Edge).
+Use the navigation menu at the top of the page to move across the different sections.
 License & Acknowledgments
-This website concept was developed as an academic project by Fatima Bridgette Barrie. All rights reserved © 2026 Savanna Bites.
+This website concept was created as an academic project by Fatima Bridgette Barrie. All rights reserved © 2026 Savanna Bites.
