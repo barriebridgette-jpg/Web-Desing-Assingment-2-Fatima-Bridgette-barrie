@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Savanna Bites</title>
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a class="brand" href="./index.html">
+      <span class="brand-mark">SB</span>
+      <span>Savanna Bites
+        <small>FOOD • FAMILY • FLAVOUR</small>
+      </span>
+    </a>
+
+    <ul>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./services.html">Services</a></li>
+      <li><a class="active" href="./contact.html">Contact</a></li>
+      <li><a href="./reservation.html">reservation</a></li>
+
+    </ul>
+
+    <a class="btn" href="#enquiry">Book a Table</a>
+  </nav>
+</header>
+
+<main>
+  <section class="banner">
+    <h1>Contact Us</h1>
+    <p>We'd love to hear from you.</p>
+  </section>
+
+  <div class="container content-section">
+    <div class="grid-2">
+
+      <div class="content-copy">
+        <h2>Get in Touch</h2>
+        <p>
+          Reach out for reservations, catering, private events or any
+          questions about our menu.
+        </p>
+
+        <ul class="contact-list">
+          <li>
+            <span>☎</span>
+            <div>
+              <strong>Phone</strong><br>
+              +232 76 123 456
+            </div>
+          </li>
+
+          <li>
+            <span>✉</span>
+            <div>
+              <strong>Email</strong><br>
+              info@savannabites.com
+            </div>
+          </li>
+
+          <li>
+            <span>⌖</span>
+            <div>
+              <strong>Address</strong><br>
+              12 Main Street, Freetown<br>
+              Sierra Leone
+            </div>
+          </li>
+
+          <li>
+            <span>◷</span>
+            <div>
+              <strong>Opening Hours</strong><br>
+              Monday – Sunday: 9:00 AM – 10:00 PM
+            </div>
+          </li>
+        </ul>
+
+        <h3>Follow Us</h3>
+        <p>Instagram · Facebook · TikTok</p>
+
+        <div class="map-placeholder">
+          Map / Location Placeholder<br>
+          <small>
+            Replace with the confirmed restaurant location before publishing.
+          </small>
+        </div>
+      </div>
+
+      <div class="form-panel" id="enquiry">
+        <h2>Send an Enquiry</h2>
+
+        <form class="demo-form">
+          <div class="field">
+            <label for="cname">Full Name *</label>
+            <input id="cname" name="name" placeholder="Your name" required>
+          </div>
+
+          <div class="field" style="margin-top:13px">
+            <label for="email">Email Address *</label>
+            <input id="email" name="email" type="email"
+                   placeholder="Your email" required>
+          </div>
+
+          <div class="field" style="margin-top:13px">
+            <label for="subject">Subject</label>
+            <input id="subject" name="subject"
+                   placeholder="How can we help?">
+          </div>
+
+          <div class="field" style="margin-top:13px">
+            <label for="message">Message *</label>
+            <textarea id="message" name="message"
+                      placeholder="Type your message here..."
+                      required></textarea>
+          </div>
+
+          <button class="btn" type="submit">Send Message</button>
+
+          <div class="success-message" role="status">
+            Thank you! Your message has been recorded for this demo.
+            Connect a form service to receive real enquiries.
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-main">
+    <div>
+      <a class="brand footer-brand" href="./index.html">
+        <span class="brand-mark">SB</span>
+        <span>Savanna Bites
+          <small>FOOD • FAMILY • FLAVOUR</small>
+        </span>
+      </a>
+      <p>A welcoming restaurant concept designed around great food,
+        convenient information and memorable moments.</p>
+    </div>
+
+    <div>
+      <h3>Explore</h3>
+      <a href="./index.html">Home</a>
+      <a href="./services.html">Our Services</a>
+      <a href="./contact.html">Book a Table</a>
+    </div>
+
+    <div>
+      <h3>Get in Touch</h3>
+      <a href="./contact.html">Contact Information</a>
+      <a href="#enquiry">Send an Enquiry</a>
+      <p class="footer-note">
+        Add confirmed address and contact details before publishing.
+      </p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>©️ 2026 Savanna Bites. All rights reserved.</p>
+    <p>Website concept for an academic project.</p>
+  </div>
+</footer>
+
+<script>
+  document.querySelectorAll('.demo-form').forEach(function(form) {
+    form.addEventListener('submit', function(event) {
+      event.preventDefault();
+
+      var message = form.querySelector('.success-message');
+
+      if (message) {
+        message.classList.add('show');
+        message.scrollIntoView({
+          behavior: 'smooth',
+          block: 'nearest'
+        });
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
